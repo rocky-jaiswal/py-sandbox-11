@@ -1,0 +1,16 @@
+[project]
+name = "py-sandbox-11"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.0"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8.4.2", "ruff>=0.14.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+work_me = "mod_b.work_me:main"
