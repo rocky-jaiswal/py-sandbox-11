@@ -14,3 +14,6 @@ where = ["src"]
 
 [project.scripts]
 work_me = "mod_b.work_me:main"
+
+[tool.uv]
+package = true
